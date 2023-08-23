@@ -52,7 +52,7 @@ body {
     display: flex;
     align-items: center;
     gap: 2.5em;
-    
+
 }
 
 .nav-item {
@@ -162,13 +162,13 @@ body {
     margin-left: 8em;
 }
 
-.linha-sobre{
+.linha-sobre {
     margin-top: 8em;
     width: 36.25rem;
     height: 2.5rem;
 }
 
-.container-sobre{
+.container-sobre {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -177,14 +177,14 @@ body {
     height: 27em;
 }
 
-.ilustra-sobre{
+.ilustra-sobre {
     width: 20rem;
     height: 21rem;
     margin-top: 3.5em;
     margin-left: 2.5em;
 }
 
-.texto-sobre{
+.texto-sobre {
     width: 31.25rem;
     color: var(--light-grey, #CECECE);
     font-family: Fira Code;
@@ -193,14 +193,47 @@ body {
     line-height: 1.625rem;
 }
 
-.linha-projetos{
-    margin: 36em 8em;
+.linha-projetos {
+    margin: 36em 0em 3.5em 9em;
 }
 
-
-
-
-
+.container-projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 240px 504px;
+    gap: 1.5em;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    width: 675px;
+    height: 240px;
+  }
+  
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    width: 325px;
+    height: 504px;
+  }
+  
+  .item3 {
+    grid-column: 1;
+    grid-row: 2;
+    width: 325px;
+    height: 240px;
+  }
+  
+  .item4 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 325px;
+    height: 240px;
+  }
 
 @media screen and (max-width:420px) {
     .menu-mobile {
