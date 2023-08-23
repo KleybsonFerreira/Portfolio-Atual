@@ -163,6 +163,7 @@ body {
 }
 
 .linha-sobre{
+    margin-top: 8em;
     width: 36.25rem;
     height: 2.5rem;
 }
@@ -192,6 +193,9 @@ body {
     line-height: 1.625rem;
 }
 
+.linha-projetos{
+    margin: 36em 8em;
+}
 
 
 
