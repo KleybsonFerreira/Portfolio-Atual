@@ -289,6 +289,57 @@ body {
     height: 5.4375rem;
 }
 
+#contato {
+    margin: 8.5em;
+
+}
+
+.linha-contato {
+    width: 42.1875rem;
+    height: 2.5rem;
+    margin: 4.72rem 0em 3.5em 0em;
+}
+
+.container-contato {
+    display: flex;
+
+}
+
+.texto-contato {
+
+    color: var(--light-grey, #CECECE);
+    font-family: Fira Code;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.paragrafo-contato {
+    margin-left: 1em;
+}
+
+.social-contato {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 6em;
+}
+
+.texto-link-contato {
+    display: flex;
+    align-items: center;
+    color: var(--off-white, #EFEFEF);
+    font-family: Fira Code;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
 
 
 @media screen and (max-width:420px) {
