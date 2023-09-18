@@ -219,6 +219,9 @@ body {
     grid-row: 1;
     width: 675px;
     height: 240px;
+    background-image: url(/assets/item\ 1.jpg);
+    background-size: 99%;
+    background-position: left center;
 }
 
 .item2 {
@@ -226,6 +229,9 @@ body {
     grid-row: 1 / span 2;
     width: 325px;
     height: 504px;
+    background-image: url(/assets/item\ 2.jpg);
+    background-size: 235%;
+    background-position: center;
 }
 
 .item3 {
@@ -233,6 +239,9 @@ body {
     grid-row: 2;
     width: 325px;
     height: 240px;
+    background-image: url(/assets/item\ 3.jpg);
+    background-position: center;
+    background-size: 330px 240px;
 }
 
 .item4 {
@@ -240,6 +249,9 @@ body {
     grid-row: 2;
     width: 325px;
     height: 240px;
+    background-image: url(/assets/item\ 4.jpg);
+    background-position: center;
+    background-size: 330px 240px;
 }
 
 #skills {
