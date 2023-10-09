@@ -445,6 +445,98 @@ body {
 }
 
 @media screen and (max-width:420px) {
+    html,
+    body{
+        max-width: 420px;
+    }
+    
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5em;
+    }
+    .texto .titulo {
+        color: var(--off-white, #EFEFEF);
+        font-family: Fira Code;
+        font-size: 1.5em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .texto .titulo .nome {
+        color: var(--medium-green, #22B455);
+        font-family: Fira Code;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .texto .paragrafo-home {
+        color: var(--light-grey, #CECECE);
+        font-family: Fira Code;
+        font-size: 0.9em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5625em;
+    }
+
+    .texto .btn {
+        display: flex;
+        padding: 0.5rem 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--Medium-green, #22B455);
+    }
+
+    .texto .btn:hover {
+        border-radius: 0.5em;
+        border: 1px solid var(--medium-green, #22B455);
+        background: var(--dark-green, #204829);
+    }
+
+    .ilustra-home {
+        display: flex;
+        height: 19.6875em;
+        width: 22em;
+        margin-top: 4em;
+        position: relative;
+        z-index: 1;
+    }
+
+    .k-home{
+        position:absolute;
+        height: 16em;
+        width: 15em;
+        bottom: 5em;
+        right: 10em;
+    }
+
+    .dots-home{
+        display: none;
+    }
+    .scroll{
+        display: none;
+    }
+    
+    #sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    
+    
     .menu-mobile {
         display: inherit;
     }
