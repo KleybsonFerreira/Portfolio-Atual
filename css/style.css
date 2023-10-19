@@ -268,7 +268,7 @@ body {
     grid-row: 1 / span 2;
     width: 325px;
     height: 504px;
-    background-image: url(/assets/item\ 2.jpg);
+    background-image: url(/Portfolio-Atual/assets/item\ 2.jpg);
     background-size: 235%;
     background-position: center;
     
@@ -455,11 +455,31 @@ body {
         flex-direction: column;
     }
 
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0, auto;
+    }
+
+    .header nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        border-radius: 1em;
+        background-color: var(--dark-gray, #101310);
+        padding: 1em;
+        z-index: 2;
+        margin: 0 auto;
+    }
+
     .texto{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5em;
+        margin: 0 auto;
     }
     .texto .titulo {
         color: var(--off-white, #EFEFEF);
@@ -506,19 +526,19 @@ body {
 
     .ilustra-home {
         display: flex;
-        height: 19.6875em;
-        width: 22em;
-        margin-top: 4em;
+        height: 14.6875em;
+        width: 21em;
+        margin-top: 5em;
         position: relative;
         z-index: 1;
     }
 
     .k-home{
-        position:absolute;
-        height: 16em;
-        width: 15em;
-        bottom: 5em;
-        right: 10em;
+        position: absolute;
+        height: 15em;
+        width: 14em;
+        bottom: 9em;
+        right: 9em;
     }
 
     .dots-home{
@@ -531,6 +551,134 @@ body {
     #sobre {
         display: flex;
         flex-direction: column;
+    }
+
+    .linha-sobre{
+        display: flex;
+        width: 24rem;
+        height: 7.5rem;
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+
+    .container-sobre {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+    }
+
+    .dots-sobre{
+        display: none;
+    }
+
+    .texto-sobre{
+        width: 23.25rem;
+        color: var(--light-grey, #CECECE);
+        font-family: Fira Code;
+        font-size: 1rem;
+        font-style: normal;
+        line-height: 1.625rem;
+    }
+
+    #projetos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linha-projetos {
+        display: flex;
+        width: 24rem;
+        height: 7.5rem;
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+
+    .k-projetos{
+        display: none;
+    }
+    .container-projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .item1{
+    width: 393px;
+    height: 211px;
+    border-radius: 7px;
+    background-image: url(/assets/item\ 1.jpg);
+
+    }
+    .item2 {
+        width: 393px;
+        height: 211px;
+        border-radius: 7px;
+        background-image: url(/Portfolio-Atual/assets/item\ 2.jpg);
+        
+    }
+    .item3 {
+        width: 393px;
+        height: 211px;
+        border-radius: 7px;
+        background-image: url(/Portfolio-Atual/assets/item\ 2.jpg);
+        
+    }
+    .item4 {
+        width: 393px;
+        height: 211px;
+        border-radius: 7px;
+        background-image: url(/Portfolio-Atual/assets/item\ 2.jpg);
+        
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .linha-skills {
+        display: flex;
+        width: 24rem;
+        height: 7.5rem;
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+    .container-skills {
+        display: flex;
+        flex-direction: column;
+    }
+    .k-skills{
+        display: none;
+    }
+    .linha-contato {
+        display: flex;
+        width: 24rem;
+        height: 7.5rem;
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+    .container-contato {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .social-contato {
+    display: flex;
+    margin-right: 11em;
+    margin-top: 4em;
+    }
+    .roda-pe {
+        display: flex;
+        padding: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        background: rgba(255, 255, 255, 0.10);
+        margin-top: 9.34em;
     }
 
 
