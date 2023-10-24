@@ -2,12 +2,16 @@
 
 html,
 body {
-    max-width: 1920px;
+    width: 100%;
+	height: 100%;
     background-color: var(--dark-gray);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
+}
+.img-mobile{
+    display: none;
 }
 
 .Linha-social {
@@ -448,6 +452,8 @@ body {
     html,
     body{
         max-width: 420px;
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+
     }
     
     #home{
@@ -466,7 +472,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
+        width: 90%;
         border-radius: 1em;
         background-color: var(--dark-gray, #101310);
         padding: 1em;
@@ -479,7 +485,8 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5em;
-        margin: 0 auto;
+        margin-left: 4em;
+        margin-top: 0;
     }
     .texto .titulo {
         color: var(--off-white, #EFEFEF);
@@ -488,6 +495,7 @@ body {
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        width: 18rem;
     }
 
     .texto .titulo .nome {
@@ -506,6 +514,7 @@ body {
         font-style: normal;
         font-weight: 400;
         line-height: 1.5625em;
+        width: 22rem;
     }
 
     .texto .btn {
@@ -526,11 +535,11 @@ body {
 
     .ilustra-home {
         display: flex;
-        height: 14.6875em;
-        width: 21em;
+        height: 17.6875em;
         margin-top: 5em;
         position: relative;
         z-index: 1;
+        margin-right: 25em;
     }
 
     .k-home{
@@ -540,23 +549,14 @@ body {
         bottom: 9em;
         right: 9em;
     }
-
-    .dots-home{
-        display: none;
-    }
-    .scroll{
-        display: none;
-    }
     
     #sobre {
         display: flex;
         flex-direction: column;
     }
-
+   
     .linha-sobre{
         display: flex;
-        width: 24rem;
-        height: 7.5rem;
         margin-left: 0;
         margin-top: 5rem;
     }
@@ -568,18 +568,18 @@ body {
         flex-wrap: nowrap;
     
     }
-
-    .dots-sobre{
-        display: none;
+    .ilustra-sobre{
+        width: 19rem;
+        height: 18rem;
     }
 
     .texto-sobre{
-        width: 23.25rem;
         color: var(--light-grey, #CECECE);
         font-family: Fira Code;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-style: normal;
         line-height: 1.625rem;
+        width: 21rem;
     }
 
     #projetos {
@@ -607,31 +607,31 @@ body {
     }
 
     .item1{
-    width: 393px;
-    height: 211px;
-    border-radius: 7px;
-    background-image: url(/assets/item\ 1.jpg);
+        width: 19em;
+        height: 13em;
+        border-radius: 7px;
+        background-image: url(/Portfolio-Atual/assets/item\ 1.jpg);
 
     }
     .item2 {
-        width: 393px;
-        height: 211px;
+        width: 19em;
+        height: 13em;
         border-radius: 7px;
         background-image: url(/Portfolio-Atual/assets/item\ 2.jpg);
         
     }
     .item3 {
-        width: 393px;
-        height: 211px;
+        width: 19em;
+        height: 13em;
         border-radius: 7px;
-        background-image: url(/Portfolio-Atual/assets/item\ 2.jpg);
+        background-image: url(/Portfolio-Atual/assets/item\ 3.jpg);
         
     }
     .item4 {
-        width: 393px;
-        height: 211px;
+        width: 19em;
+        height: 13em;
         border-radius: 7px;
-        background-image: url(/Portfolio-Atual/assets/item\ 2.jpg);
+        background-image: url(/Portfolio-Atual/assets/item\ 4.jpg);
         
     }
 
@@ -668,22 +668,30 @@ body {
     }
     .social-contato {
     display: flex;
-    margin-right: 11em;
+    margin-right: 8em;
     margin-top: 4em;
+    }
+
+    .texto-link-contato{
+        width: 19em;
+        height: 2em;
     }
     .roda-pe {
         display: flex;
+        width: 24.8em;
         padding: 1.5rem;
         justify-content: center;
         align-items: center;
         gap: 0.625rem;
-        background: rgba(255, 255, 255, 0.10);
-        margin-top: 9.34em;
     }
 
 
-
-    
+    .dots-home{
+        display: none;
+    }
+    .scroll{
+        display: none;
+    }
     
     .menu-mobile {
         display: inherit;
@@ -695,6 +703,18 @@ body {
 
     .Linha-social {
         display: none;
+    }
+
+    .dots-sobre{
+        display: none;
+    }
+
+    .img-desktop{
+        display: none;
+    }
+    
+    .img-mobile{
+        display: flex;
     }
 
 }
