@@ -90,6 +90,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5em;
+    margin-left: 6em;
     
 }
 
@@ -173,11 +174,11 @@ body {
 }
 
 .dots-home{
-    position:absolute;
-    height: 6em;
+    position: absolute;
+    height: 14em;
     width: 6em;
     bottom: 9em;
-    margin-left: 4em;
+    margin-left: 9em;
     z-index: 1;
 }
 
@@ -189,7 +190,7 @@ body {
     width: 1.75em;
     height: 3.5625em;
     margin: 0 auto;
-    margin-top: -1em;
+    margin-top: 5em;
 }
 
 #sobre {
@@ -455,6 +456,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 3.5em;
+    margin: 0 auto;
 
 }
 
@@ -466,10 +468,6 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
-
-.paragrafo-contato {
-    margin-left: 1em;
 }
 
 .social-contato {
