@@ -42,7 +42,7 @@ body {
     margin: 2em 1%;
 }
 
-.header nav {
+ .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,15 +54,11 @@ body {
     padding: 1em;
     z-index: 2;
 }
-
-.header .right {
-    display: flex;
-    align-items: center;
-    gap: 2.5em;
-
+.nav-link{
+    color: var(--light-grey, ) ;
 }
 
-.nav-item {
+ .nav-item {
     display: flex;
     align-items: center;
     gap: 0.25em;
@@ -94,7 +90,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5em;
-    margin: 9.25em 3.59375em 0px 9.8125em;
+    
 }
 
 .texto .titulo {
@@ -175,19 +171,13 @@ body {
     position: relative;
     z-index: 1;
 }
-.k-home{
-    position:absolute;
-    height: 15em;
-    width: 15em;
-    bottom: 21em;
-    right: 18em;
-}
+
 .dots-home{
     position:absolute;
     height: 6em;
     width: 6em;
-    bottom: 13em;
-    right: 4em;
+    bottom: 9em;
+    margin-left: 4em;
     z-index: 1;
 }
 
@@ -199,7 +189,7 @@ body {
     width: 1.75em;
     height: 3.5625em;
     margin: 0 auto;
-    margin-top: 10em;
+    margin-top: -1em;
 }
 
 #sobre {
@@ -551,6 +541,10 @@ body {
         justify-content: flex-start;
         margin: 0, auto;
     }
+    .Linha-social{
+        display: none;
+        
+    }
 
     .header nav{
         display: flex;
@@ -624,14 +618,6 @@ body {
         position: relative;
         z-index: 1;
         margin-right: 25em;
-    }
-
-    .k-home{
-        position: absolute;
-        height: 15em;
-        width: 14em;
-        bottom: 9em;
-        right: 9em;
     }
     
     #sobre {
