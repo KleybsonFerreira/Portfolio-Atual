@@ -266,9 +266,9 @@ body {
 }
 .item1 {
     grid-column: 1 / span 2;
-    grid-row: 1;
+    /* grid-row: 1; */
     width: 675px;
-    height: 240px;
+    height: 250px;
     background-image: url(/assets/item\ 1.jpg);
     background-size: 99%;
     background-position: left center;
@@ -298,7 +298,7 @@ body {
     grid-column: 3;
     grid-row: 1 / span 2;
     width: 359px;
-    height: 504px;
+    height: 554px;
     background-image: url(/assets/item\ 2.jpg);
     background-size: 235%;
     background-position: center;
